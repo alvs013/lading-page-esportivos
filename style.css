@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-image: url(https://media.istockphoto.com/id/1256696490/pt/foto/used-concrete-asphalt-airport-empty-runway-with-many-braking-marks-markings-for-landings-and.jpg?s=612x612&w=0&k=20&c=5YdoeJRHc4kItOU9Yyxp6DNb4QfmPx4dwIprjt03LHM=);
+}
+
+header {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    right: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.card-group {
+   width: 50%;
+   position: absolute;
+   left: 25%;
+   top: 30%;
+}
+
+.card-1:hover{transform: scale(1.1);
+    }
+
+    .card-2:hover{transform: scale(1.1);
+    }
+
+    .card-3:hover{transform: scale(1.1);
+    }
+
+    .card-1{
+        transition: 0.3s ease-in-out;
+    }
+
+    .card-2{
+        transition: 0.3s ease-in-out;
+    }
+
+    .card-3{
+        transition: 0.3s ease-in-out;
+    }
+
+    .card-1{
+        -webkit-box-shadow: 6px 6px 24px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 24px -1px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 24px -1px rgba(0,0,0,0.75)
+    }
+
+    .card-2{
+        -webkit-box-shadow: 6px 6px 24px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 24px -1px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 24px -1px rgba(0,0,0,0.75)
+    }
+
+    .card-3{
+        -webkit-box-shadow: 6px 6px 24px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 24px -1px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 24px -1px rgba(0,0,0,0.75)
+    }
